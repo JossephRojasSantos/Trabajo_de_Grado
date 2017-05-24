@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>MainActivity.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,0); }
+.s1 { color: rgb(0,0,128); font-weight: bold; }
+.s2 { color: rgb(0,128,0); font-weight: bold; }
+.s3 { color: rgb(128,128,128); font-style: italic; }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+MainActivity.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<span class="s0"> 
+ 
+        manager = (WifiP2pManager) getSystemService(Context.WIFI_P2P_SERVICE); 
+        channel = manager.initialize(</span><span class="s1">this</span><span class="s0">, getMainLooper(), </span><span class="s1">null</span><span class="s0">); 
+ 
+        intentFilter.addAction(WifiP2pManager.WIFI_P2P_STATE_CHANGED_ACTION); 
+        intentFilter.addAction(WifiP2pManager.WIFI_P2P_PEERS_CHANGED_ACTION); 
+        intentFilter.addAction(WifiP2pManager.WIFI_P2P_CONNECTION_CHANGED_ACTION); 
+        intentFilter.addAction(WifiP2pManager.WIFI_P2P_THIS_DEVICE_CHANGED_ACTION); 
+ 
+        receiver = </span><span class="s1">new </span><span class="s0">WiFiDirectBroadcastReceiver(manager, channel, </span><span class="s1">this</span><span class="s0">); 
+        registerReceiver(receiver, intentFilter);</span></pre>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Nsd</string>
+    <string name="connect">Conectar</string>
+    <string name="discover">Descubrir</string>
+    <string name="register">Registrar</string>
+    <string name="send">Enviar</string>
+
+</resources>

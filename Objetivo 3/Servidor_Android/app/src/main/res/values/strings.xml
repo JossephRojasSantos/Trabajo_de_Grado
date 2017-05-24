@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Servidor_Android</string>
+    <string name="mensaje">Ahora puede acceder al servidor Web Android desde un navegador conectado a la misma red Wi-Fi.</string>
+    <string name="dialog_exit_message">Android Web Server is currently running. If you exit the application we will stop it. Are sure you want to exit the application?</string>
+</resources>

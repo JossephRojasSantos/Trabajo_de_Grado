@@ -1,6 +1,7 @@
 # Trabajo_de_Grado
 Web Services 
 -------------------------------------------------------------OBJETIVO 1:-----------------------------------------------
+
 1.1	WI-FI INFRAESTRUCTURA 
 El descubrimiento de servicios de red (Nsd) dentro de una red local, nos permite una conexión entre dos dispositivos móviles sin 
 necesidad de introducir manualmente una dirección IP. El Nsd implementa dos estándares: mDNS y DNS-SD,
@@ -21,6 +22,7 @@ el canal en cual el grupo operará (2.4 GHz o bandas de 5GHz).
 La demostración de su funcionamiento se plasma en un video publicado en YouTube bajo el link https://www.youtube.com/watch?v=PvezJM8kZ_g
 
 -------------------------------------------------------------OBJETIVO 2:-----------------------------------------------
+
 2.1     SONDEO (polling)
 Sondeo hace referencia a una acción de consulta constante, la cual conlleva a una actividad sincrónica entre la APi cliente y el
 proveedor de servicios, sin que haya intervención de parte del usuario en la misma. El uso de esta técnica, al ser un proceso iterado, 
@@ -46,6 +48,7 @@ alternativa al sondeo HTTP (Long Polling), el cual era un abuso para suministrar
 La demostración de su funcionamiento, se plasma en un video publicado en YouTube bajo el link https://www.youtube.com/watch?v=h8lXeqkzO_Q 
 
 -------------------------------------------------------------OBJETIVO 3:-----------------------------------------------
+
 3.1     WEBSOCKET SERVER
 WebSocket es una norma nueva para la web. Este protocolo, bajo TCP, al contrario de un enlace HTTP, genera una comunicación en tiempo 
 real y se mantiene abierta hasta que alguno de los involucrados la cierre. Esta tecnología permite que el proveedor de servicios, envíe 

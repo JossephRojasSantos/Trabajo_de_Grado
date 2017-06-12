@@ -137,11 +137,12 @@ public class Connection {
                         setSocket(mServerSocket.accept());
                         // Bloquea la ejecucion del programa hasta que se realiza una conexion
                         Log.d(TAG, "Conectado");
-                        if (mClient == null) {
+                        /* 
+                       if (mClient == null) {
                             int port = mSocket.getPort();
                             InetAddress address = mSocket.getInetAddress();
                             connectToServer(address, port);
-                        }
+                        }*/
                     }
                 } catch (IOException e) {
                     Log.e(TAG, "Error creando ServerSocket: ", e);
